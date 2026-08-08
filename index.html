@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabin Thapa -- Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="#" class="nav-logo">Sabin<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <div>
+      <p class="hero-eyebrow">Software Developer · Kathmandu, Nepal</p>
+      <h1>I build things<br>that <em>actually</em><br>work.</h1>
+      <p class="hero-sub">
+        Full-stack developer with a background in AI and ML. I care about
+        clean code, practical systems, and software that solves real problems.
+        Open to opportunities in Kathmandu and internationally.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View my work</a>
+        <a href="cv.pdf" download class="btn btn-ghost">Download CV</a>
+      </div>
+    </div>
+    <div class="hero-vert" aria-hidden="true">ST</div>
+  </div>
+
+  <hr class="divider" />
+
+  <section id="about">
+    <p class="section-label fade-in">About me</p>
+    <h2 class="section-title fade-in">Developer, tinkerer,<br>open-source advocate.</h2>
+    <div class="about-grid">
+      <div class="about-text fade-in">
+        <p>
+          I hold a <strong>Bachelor of Information Technology (AI and ML)</strong> from
+          Westcliff University / Presidential Graduate School, Kathmandu, graduating with a
+          <strong>3.99 GPA</strong>. My work spans full-stack web development, machine learning
+          pipelines, and clinical NLP systems.
+        </p>
+        <p>
+          I have run Linux for over 9 years, maintain a personal homelab, and use Neovim as my
+          daily driver. I default to open-source tooling wherever possible -- not as a philosophy,
+          but because it tends to work better.
+        </p>
+        <p>
+          Currently deepening my Ruby on Rails skills and actively looking for software
+          development roles in Kathmandu and abroad.
+        </p>
+      </div>
+      <div class="skills-list fade-in">
+        <div>
+          <p class="skill-group-label">Languages</p>
+          <div class="skill-tags">
+            <span class="tag">Ruby</span>
+            <span class="tag">Python</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+        <div>
+          <p class="skill-group-label">Frameworks</p>
+          <div class="skill-tags">
+            <span class="tag tag-blue">Rails</span>
+            <span class="tag tag-blue">React Native</span>
+            <span class="tag tag-blue">Node.js</span>
+          </div>
+        </div>
+        <div>
+          <p class="skill-group-label">AI / ML</p>
+          <div class="skill-tags">
+            <span class="tag tag-red">WhisperX</span>
+            <span class="tag tag-red">LangChain</span>
+            <span class="tag tag-red">LSTM</span>
+            <span class="tag tag-red">LLaMA 3.1</span>
+          </div>
+        </div>
+        <div>
+          <p class="skill-group-label">Infrastructure</p>
+          <div class="skill-tags">
+            <span class="tag tag-green">Linux</span>
+            <span class="tag tag-green">Docker</span>
+            <span class="tag tag-green">Tailscale</span>
+            <span class="tag tag-green">Git</span>
+            <span class="tag tag-green">Neovim</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <section id="projects">
+    <p class="section-label fade-in">Selected work</p>
+    <h2 class="section-title fade-in">Things I've built.</h2>
+    <div class="projects-grid">
+
+      <div class="project-card fade-in">
+        <div class="card-index">01</div>
+        <p class="project-name">FixMate</p>
+        <p class="project-desc">
+          Full-stack service booking platform built during my traineeship at Bajra Technologies.
+          Connects customers with service providers, handling scheduling, authentication,
+          and booking management end-to-end.
+        </p>
+        <div class="project-footer">
+          <div class="project-stack">
+            <span class="stack-tag">Ruby on Rails</span>
+            <span class="stack-tag">PostgreSQL</span>
+            <span class="stack-tag">Tailwind</span>
+          </div>
+          <a href="https://github.com/thapa-sabin/fixmate" target="_blank" class="project-link">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card fade-in">
+        <div class="card-index">02</div>
+        <p class="project-name">NepScribe</p>
+        <p class="project-desc">
+          Clinical documentation pipeline for Nepali-English code-switched speech.
+          Uses WhisperX for transcription, pyannote for speaker diarization, and
+          LLaMA 3.1 via LangChain to produce structured clinical notes.
+        </p>
+        <div class="project-footer">
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">WhisperX</span>
+            <span class="stack-tag">LangChain</span>
+            <span class="stack-tag">LLaMA 3.1</span>
+          </div>
+          <a href="https://github.com/thapa-sabin/nepscribe" target="_blank" class="project-link">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card fade-in">
+        <div class="card-index">03</div>
+        <p class="project-name">Remit-Smart</p>
+        <p class="project-desc">
+            Forex remittance prediction platform for the Nepali market. Pulls live rates from the NRB Forex API and forecasts exchange-rate trends using an LSTM-based time series model.
+        </p>
+        <div class="project-footer">
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">LSTM</span>
+            <span class="stack-tag">NRB API</span>
+          </div>
+          <a href="https://github.com/thapa-sabin/remit-smart" target="_blank" class="project-link">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card fade-in">
+        <div class="card-index">04</div>
+        <p class="project-name">React Native Chat App</p>
+        <p class="project-desc">
+          Real-time mobile chat application with a Rails API backend and Node.js plus
+          Socket.IO for WebSocket messaging. Tested and demoed via Expo Go on
+          physical devices.
+        </p>
+        <div class="project-footer">
+          <div class="project-stack">
+            <span class="stack-tag">React Native</span>
+            <span class="stack-tag">Rails API</span>
+            <span class="stack-tag">Socket.IO</span>
+            <span class="stack-tag">Expo</span>
+          </div>
+          <a href="https://github.com/thapa-sabin/chat-app/" target="_blank" class="project-link">GitHub →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <section id="contact">
+    <div class="contact-inner fade-in">
+      <div class="contact-text">
+        <h3>Let's work together.</h3>
+        <p>
+          Open to software development, data engineering,<br>
+          and QA roles in Kathmandu and internationally.
+        </p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:thapasabin9861@gmail.com" class="btn btn-light">Send an email</a>
+        <a href="https://github.com/thapa-sabin" target="_blank" class="btn btn-outline-light">GitHub</a>
+        <a href="cv.pdf" download class="btn btn-outline-light">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Sabin Thapa · sabinthapa.me</p>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver(
+      entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
+      { threshold: 0.1 }
+    );
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
