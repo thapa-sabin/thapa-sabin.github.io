@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sabin Thapa - Software Developer</title>
+  <title>Sabin Thapa -- Software Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -22,12 +22,12 @@
 
   <div class="hero">
     <div>
-      <p class="hero-eyebrow">Software Developer · Kathmandu, Nepal</p>
-      <h1>I build things<br>that <em>actually</em><br>work.</h1>
+      <p class="hero-eyebrow">Software Developer · Systems · Kathmandu, Nepal</p>
+      <h1>I build software<br>and understand<br>the systems <em>beneath it.</em></h1>
       <p class="hero-sub">
-        Full-stack developer with a background in AI and ML. I care about
-        clean code, practical systems, and software that solves real problems.
-        Open to opportunities in Kathmandu and internationally.
+        Full-stack developer with a background in AI and ML, comfortable working
+        close to the metal. Nine years on Linux, a running homelab, and Cisco
+        networking training. Open to development and systems roles locally and internationally.
       </p>
       <div class="hero-actions">
         <a href="#projects" class="btn btn-primary">View my work</a>
@@ -40,61 +40,70 @@
   <hr class="divider" />
 
   <section id="about">
-    <p class="section-label fade-in">About me</p>
-    <h2 class="section-title fade-in">Developer, tinkerer,<br>open-source advocate.</h2>
+    <p class="section-label fade-in">About</p>
+    <h2 class="section-title fade-in">Developer, tinkerer,<br>Linux native.</h2>
     <div class="about-grid">
       <div class="about-text fade-in">
         <p>
           I hold a <strong>Bachelor of Information Technology (AI and ML)</strong> from
           Westcliff University / Presidential Graduate School, Kathmandu, graduating with a
           <strong>3.99 GPA</strong>. My work spans full-stack web development, machine learning
-          pipelines, and clinical NLP systems.
+          pipelines, and systems administration.
         </p>
         <p>
-          I have run Linux for over 9 years, maintain a personal homelab, and use Neovim as my
-          daily driver. I default to open-source tooling wherever possible; not as a philosophy,
-          but because it tends to work better.
+          I have run Linux as my daily OS for over 9 years, currently on Debian with GNOME.
+          I maintain a personal homelab running Tailscale, Pi-hole, Portainer, and a
+          self-hosted media server. Neovim is my primary editor and I spend most of my time
+          in the terminal.
         </p>
         <p>
-          Currently deepening my Ruby on Rails skills and actively looking for software
-          development roles in Kathmandu and abroad.
+          I hold a Cisco networking workshop certificate covering VLANs, Cisco IOS, and
+          Packet Tracer, along with a Cisco Introduction to Cybersecurity certification.
+          Currently deepening my Ruby on Rails skills and looking for software development
+          and systems roles in Kathmandu and abroad.
         </p>
       </div>
       <div class="skills-list fade-in">
         <div>
           <p class="skill-group-label">Languages</p>
           <div class="skill-tags">
-            <span class="tag">Ruby</span>
-            <span class="tag">Python</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">SQL</span>
+            <span class="tag tag-lang">Ruby</span>
+            <span class="tag tag-lang">Python</span>
+            <span class="tag tag-lang">JavaScript</span>
+            <span class="tag tag-lang">SQL</span>
+            <span class="tag tag-lang">Bash</span>
           </div>
         </div>
         <div>
-          <p class="skill-group-label">Frameworks</p>
+          <p class="skill-group-label">Web Frameworks</p>
           <div class="skill-tags">
-            <span class="tag tag-blue">Rails</span>
-            <span class="tag tag-blue">React Native</span>
-            <span class="tag tag-blue">Node.js</span>
+            <span class="tag tag-frame">Rails</span>
+            <span class="tag tag-frame">React Native</span>
+            <span class="tag tag-frame">Node.js</span>
+            <span class="tag tag-frame">Socket.IO</span>
+            <span class="tag tag-frame">FastAPI</span>
+          </div>
+        </div>
+        <div>
+          <p class="skill-group-label">Systems and Networking</p>
+          <div class="skill-tags">
+            <span class="tag tag-sys">Linux (Debian)</span>
+            <span class="tag tag-sys">Docker</span>
+            <span class="tag tag-sys">Tailscale</span>
+            <span class="tag tag-sys">Pi-hole</span>
+            <span class="tag tag-sys">Portainer</span>
+            <span class="tag tag-sys">Cisco IOS</span>
+            <span class="tag tag-sys">VLANs</span>
           </div>
         </div>
         <div>
           <p class="skill-group-label">AI / ML</p>
           <div class="skill-tags">
-            <span class="tag tag-red">WhisperX</span>
-            <span class="tag tag-red">LangChain</span>
-            <span class="tag tag-red">LSTM</span>
-            <span class="tag tag-red">LLaMA 3.1</span>
-          </div>
-        </div>
-        <div>
-          <p class="skill-group-label">Infrastructure</p>
-          <div class="skill-tags">
-            <span class="tag tag-green">Linux</span>
-            <span class="tag tag-green">Docker</span>
-            <span class="tag tag-green">Tailscale</span>
-            <span class="tag tag-green">Git</span>
-            <span class="tag tag-green">Neovim</span>
+            <span class="tag tag-ml">WhisperX</span>
+            <span class="tag tag-ml">LangChain</span>
+            <span class="tag tag-ml">SARIMAX</span>
+            <span class="tag tag-ml">LSTM</span>
+            <span class="tag tag-ml">YOLOv8</span>
           </div>
         </div>
       </div>
@@ -104,12 +113,30 @@
   <hr class="divider" />
 
   <section id="projects">
-    <p class="section-label fade-in">Selected work</p>
+    <p class="section-label fade-in">Projects</p>
     <h2 class="section-title fade-in">Things I've built.</h2>
     <div class="projects-grid">
-
+    
       <div class="project-card fade-in">
-        <div class="card-index">01</div>
+        <span class="card-index">01</span>
+        <p class="project-name">E-Kantipur Scraper</p>
+        <p class="project-desc">
+          Ekantipur entertainment content scraper built with Playwright.
+          Extracts top entertainment articles and cartoon listings using selector-driven HTML parsing, handles lazy-loaded images and missing authors, and outputs normalized cartoon data as structured JSON with unit-tested edge cases.
+        </p>
+        <div class="project-footer">
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Playwright</span>
+            <span class="stack-tag">BeautifulSoup</span>
+            <span class="stack-tag">JSON</span>
+          </div>
+          <a href="https://github.com/thapa-sabin/ekantipur-scraper" target="_blank" class="project-link">GitHub →</a>
+        </div>
+      </div>
+      
+      <div class="project-card fade-in">
+        <span class="card-index">02</span>
         <p class="project-name">FixMate</p>
         <p class="project-desc">
           Full-stack service booking platform built during my traineeship at Bajra Technologies.
@@ -127,7 +154,7 @@
       </div>
 
       <div class="project-card fade-in">
-        <div class="card-index">02</div>
+        <span class="card-index">03</span>
         <p class="project-name">NepScribe</p>
         <p class="project-desc">
           Clinical documentation pipeline for Nepali-English code-switched speech.
@@ -139,44 +166,28 @@
             <span class="stack-tag">Python</span>
             <span class="stack-tag">WhisperX</span>
             <span class="stack-tag">LangChain</span>
-            <span class="stack-tag">LLaMA 3.1</span>
+            <span class="stack-tag">FastAPI</span>
           </div>
           <a href="https://github.com/thapa-sabin/nepscribe" target="_blank" class="project-link">GitHub →</a>
         </div>
       </div>
 
       <div class="project-card fade-in">
-        <div class="card-index">03</div>
+        <span class="card-index">04</span>
         <p class="project-name">Remit-Smart</p>
         <p class="project-desc">
-            Forex remittance prediction platform for the Nepali market. Pulls live rates from the NRB Forex API and forecasts exchange-rate trends using an LSTM-based time series model.
+          Forex remittance prediction platform for the Nepali market. Pulls live rates
+          from the NEB Forex API and forecasts exchange trends using LSTM and SARIMAX
+          time series models.
         </p>
         <div class="project-footer">
           <div class="project-stack">
             <span class="stack-tag">Python</span>
             <span class="stack-tag">LSTM</span>
-            <span class="stack-tag">NRB API</span>
+            <span class="stack-tag">SARIMAX</span>
+            <span class="stack-tag">NEB API</span>
           </div>
           <a href="https://github.com/thapa-sabin/remit-smart" target="_blank" class="project-link">GitHub →</a>
-        </div>
-      </div>
-
-      <div class="project-card fade-in">
-        <div class="card-index">04</div>
-        <p class="project-name">React Native Chat App</p>
-        <p class="project-desc">
-          Real-time mobile chat application with a Rails API backend and Node.js plus
-          Socket.IO for WebSocket messaging. Tested and demoed via Expo Go on
-          physical devices.
-        </p>
-        <div class="project-footer">
-          <div class="project-stack">
-            <span class="stack-tag">React Native</span>
-            <span class="stack-tag">Rails API</span>
-            <span class="stack-tag">Socket.IO</span>
-            <span class="stack-tag">Expo</span>
-          </div>
-          <a href="https://github.com/thapa-sabin/chat-app/" target="_blank" class="project-link">GitHub →</a>
         </div>
       </div>
 
@@ -190,8 +201,8 @@
       <div class="contact-text">
         <h3>Let's work together.</h3>
         <p>
-          Open to software development, data engineering,<br>
-          and QA roles in Kathmandu and internationally.
+          Open to software development, systems, and networking roles<br>
+          in Kathmandu and internationally.
         </p>
       </div>
       <div class="contact-links">
@@ -204,7 +215,7 @@
   </section>
 
   <footer>
-    <p>Designed & built by Sabin Thapa · © 2026</p>
+    Designed & built by Sabin Thapa · © 2026
   </footer>
 
   <script>
